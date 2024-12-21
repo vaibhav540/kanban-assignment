@@ -1,0 +1,85 @@
+{
+  "boards": [
+    {
+      "name": "Task Board",
+      "isActive": true,
+      "columns": [
+        {
+          "name": "To Do",
+          "tasks": [
+            {
+              "title": "Set up project structure",
+              "description": "",
+              "status": "To Do",
+              "subtasks": [
+                {
+                  "title": "Define project folder structure",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Create initial files",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "In Progress",
+          "tasks": [
+            {
+              "title": "Design Kanban layout",
+              "description": "",
+              "status": "In Progress",
+              "subtasks": [
+                {
+                  "title": "Create initial wireframe",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Iterate based on feedback",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Implement drag-and-drop",
+              "description": "",
+              "status": "In Progress",
+              "subtasks": [
+                {
+                  "title": "Setup drag-and-drop library",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Test drag-and-drop functionality",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Done",
+          "tasks": [
+            {
+              "title": "Test functionality",
+              "description": "Ensure all features work as expected.",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Unit testing",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Integration testing",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
